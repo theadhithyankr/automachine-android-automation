@@ -1,37 +1,58 @@
+<div align="center">
+
 # AutoMachine Android Automation
 
-Android automation app for running device tasks from a Kotlin mobile project.
+Android automation project for repeatable device-side actions.
+
+![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+
+[Repository](https://github.com/theadhithyankr/automachine-android-automation)
+
+</div>
+
+## Overview
+
+AutoMachine Android Automation is a automation project in the TheAdhithyanKR/automachine-android-automation repository. Android automation app for running device tasks from a Kotlin mobile project.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The commands below are based on the build files present in the repository.
 
 ## Key Features
-- Android automation app for running device tasks from a Kotlin mobile project
-- Android or JVM project structure is documented with the relevant Gradle, Kotlin, or Java entry points.
-- Existing media assets are referenced only where they are already present in the repository.
+
+- Android project structure for automation workflows
+- Repeatable action flow suitable for device testing
+- Gradle-based build and install path
+- Practical exploration of mobile automation concepts
 
 ## Tech Stack
+
 - Gradle
 - Kotlin
 
 ## Project Structure
-- app/src/main - Android app source, manifest, and platform code.
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/automachine-android-automation.git
-cd automachine-android-automation
-.\\gradlew.bat build
-```
+`	ext
+.
+|-- app/proguard-rules.pro
+|-- gradle.properties
+|-- gradle/libs.versions.toml
+|-- gradlew
+|-- gradlew.bat
+|-- README.md
+`
 
-## Screenshots and Media
-- Existing asset: app/src/main/res/mipmap-hdpi/ic_launcher.webp
-- Existing asset: app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
-- Existing asset: app/src/main/res/mipmap-mdpi/ic_launcher.webp
-- Existing asset: app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
-- Existing asset: app/src/main/res/mipmap-xhdpi/ic_launcher.webp
-- Existing asset: app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+## Setup
+
+`ash
+.\gradlew assembleDebug
+`
 
 ## What This Project Demonstrates
-- Working with Android or JVM project structure, build tooling, and platform-specific source layout.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/automachine-android-automation
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around automation
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/automachine-android-automation](https://github.com/theadhithyankr/automachine-android-automation)
